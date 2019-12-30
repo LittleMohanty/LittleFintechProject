@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="132676" started-at="2019-12-29T17:49:33Z" finished-at="2019-12-29T17:51:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="132676" started-at="2019-12-29T17:49:33Z" finished-at="2019-12-29T17:51:45Z">
+      <class name="com.java.testcase.TripAdvisorTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.java.testcase.TripAdvisorTest@59f99ea]" name="setUp" is-config="true" duration-ms="13931" started-at="2019-12-29T17:49:33Z" finished-at="2019-12-29T17:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tripSearchTest()[pri:0, instance:com.java.testcase.TripAdvisorTest@59f99ea]" name="tripSearchTest" duration-ms="75760" started-at="2019-12-29T17:49:47Z" finished-at="2019-12-29T17:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tripSearchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.java.testcase.TripAdvisorTest@59f99ea]" name="tearDown" is-config="true" duration-ms="2442" started-at="2019-12-29T17:51:02Z" finished-at="2019-12-29T17:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.java.testcase.TripAdvisorTest -->
+      <class name="com.java.testcase.PriceComparisonTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.java.testcase.PriceComparisonTest@27efef64]" name="setUp" is-config="true" duration-ms="15359" started-at="2019-12-29T17:51:05Z" finished-at="2019-12-29T17:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="amazonSearchTest()[pri:1, instance:com.java.testcase.PriceComparisonTest@27efef64]" name="amazonSearchTest" duration-ms="15726" started-at="2019-12-29T17:51:20Z" finished-at="2019-12-29T17:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonSearchTest -->
+        <test-method status="PASS" signature="flipkartSearchTest()[pri:2, instance:com.java.testcase.PriceComparisonTest@27efef64]" name="flipkartSearchTest" duration-ms="7998" started-at="2019-12-29T17:51:36Z" finished-at="2019-12-29T17:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartSearchTest -->
+        <test-method status="PASS" signature="priceComparisionTest()[pri:3, instance:com.java.testcase.PriceComparisonTest@27efef64]" name="priceComparisionTest" duration-ms="3" started-at="2019-12-29T17:51:44Z" finished-at="2019-12-29T17:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceComparisionTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.java.testcase.PriceComparisonTest@27efef64]" name="tearDown" is-config="true" duration-ms="1350" started-at="2019-12-29T17:51:44Z" finished-at="2019-12-29T17:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.java.testcase.PriceComparisonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

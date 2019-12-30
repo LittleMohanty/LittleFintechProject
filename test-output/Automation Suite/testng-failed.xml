@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Suite]">
+  <test thread-count="5" name="Fintech Test(failed)">
+    <classes>
+      <class name="com.java.testcase.TripAdvisorTest">
+        <methods>
+          <include name="tripSearchTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.java.testcase.TripAdvisorTest -->
+    </classes>
+  </test> <!-- Fintech Test(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->
